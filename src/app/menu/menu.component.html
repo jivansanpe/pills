@@ -1,0 +1,9 @@
+<ul id="menu">
+    <li><span> </span></li>
+    <li routerLink="/bienvenida"><span>En Web</span></li>
+    <li routerLink="/us"><span>Acerca de</span></li>
+    <li id="acceso" *ngIf="miToken == 0" class="acceso" routerLink="/login"><span>Acceso</span></li>
+    <li id="acceso" *ngIf="miToken != 0" class="acceso" (click)="logout()"><span><strong>Usuario:</strong>{{ userName }}</span></li>
+    <li id="acceso" *ngIf="miToken == 0" class="acceso" routerLink="/login"><span>Acceso</span></li>
+    <li id="acceso" *ngIf="miToken != 0" class="acceso" (click)="logout()"><span><strong>Usuario:</strong>{{ userName }}<img src="./../../assets/images/icons/logout.png" width="25" height="25"></span></li>
+</ul>

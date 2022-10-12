@@ -1,0 +1,139 @@
+.pantallaAjustes {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    position: relative;
+    width: 360px;
+    background-color: rgba(183, 196, 207, 1);
+}
+
+.circulazo_perfil {
+    top: 71px;
+    left: 107px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+.txtNombreUsuario {
+    top: 221px;
+    left: 92px;
+    color: rgba(30, 30, 30, 1);
+    width: 176px;
+    position: absolute;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.txtVersion {
+    top: 542.54541015625px;
+    left: 26px;
+    color: rgba(30, 30, 30, 1);
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.txtNombreVersion {
+    top: 578px;
+    left: 26px;
+    color: rgba(117, 117, 117, 1);
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.txtAcercaDe {
+    top: 632px;
+    left: 26px;
+    color: rgba(30, 30, 30, 1);
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.btnModoOscuro {
+    top: 483px;
+    left: 26px;
+    color: rgba(30, 30, 30, 1);
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.btnCambiarContraseña {
+    top: 424px;
+    left: 23px;
+    color: rgba(30, 30, 30, 1);
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.btnCambiarUsuario {
+    top: 370px;
+    left: 23px;
+    color: rgba(30, 30, 30, 1);
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.btnCerrarSesion {
+    top: 686px;
+    left: 26px;
+    width: 314px;
+    height: 38px;
+    position: absolute;
+}
+
+.linea1 {
+    top: 617px;
+    left: 25.996688842773438px;
+    width: 302px;
+    height: 1px;
+    position: absolute;
+}
+
+.linea2 {
+    top: 526px;
+    left: 26px;
+    width: 302px;
+    height: 1px;
+    position: absolute;
+}
+
+.linea3 {
+    top: 468px;
+    left: 24px;
+    width: 305px;
+    height: 1px;
+    position: absolute;
+}
+
+.linea4 {
+    top: 410px;
+    left: 23px;
+    width: 305px;
+    height: 1px;
+    position: absolute;
+}
+
+.txtLugar {
+    top: 262px;
+    left: 135px;
+    color: rgba(30, 30, 30, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    line-height: 150%;
+
+}

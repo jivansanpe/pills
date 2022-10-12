@@ -1,0 +1,71 @@
+.pantallaIniciarSesion {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  position: relative;
+  width: 360px;
+  background-color: rgba(183, 196, 207, 1);
+}
+
+.txtIniciarSesion {
+  left: 30px;
+  color: rgba(30, 30, 30, 1);
+  position: absolute;
+  font-size: 32px;
+  font-weight: 700;
+  top: 90px;
+  width: 276px;
+  height: 48px;
+  position: absolute;
+}
+
+.logo {
+  top: 156px;
+  left: 85px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+}
+
+.txtConectate {
+  top: 345px;
+  left: 25px;
+  color: rgba(0, 0, 0, 1);
+  width: 160px;
+  position: absolute;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.txtCorreoElectronico {
+  top: 390px;
+  left: 23px;
+  color: rgba(30, 30, 30, 1);
+  position: absolute;
+}
+
+.txtContraseña {
+  top: 473px;
+  left: 23px;
+  color: rgba(30, 30, 30, 1);
+  position: absolute;
+  font-size: 16px;
+}
+
+.btnEntrar {
+  top: 571px;
+  left: 25px;
+  width: 314px;
+  height: 38px;
+  position: absolute;
+}
+
+.btnContraseñaOlvidada {
+  top: 641px;
+  left: 25px;
+  color: rgba(0, 0, 0, 1);
+  width: 137px;
+  position: absolute;
+  font-size: 13px;
+}
