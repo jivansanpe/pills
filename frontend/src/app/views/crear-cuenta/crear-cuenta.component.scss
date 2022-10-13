@@ -1,4 +1,4 @@
-.pantalladecrearcuenta-pantalladecrearcuenta {
+.pantallaCrearCuenta {
   width: 100%;
   height: 800px;
   display: flex;
@@ -26,6 +26,15 @@
   font-size: 16px;
 }
 
+.inputNombre {
+  top: 165px;
+  left: 23px;
+  height: 25px;
+  width: 300px;
+  color: rgba(30, 30, 30, 1);
+  position: absolute;
+}
+
 .txtApellidos {
   top: 225px;
   left: 23px;
@@ -33,6 +42,15 @@
   height: auto;
   position: absolute;
   font-size: 16px;
+}
+
+.inputApellidos {
+  top: 250px;
+  left: 23px;
+  height: 25px;
+  width: 300px;
+  color: rgba(30, 30, 30, 1);
+  position: absolute;
 }
 
 .txtCorreoElectronico {
@@ -44,6 +62,15 @@
   font-size: 16px;
 }
 
+.inputCorreoElectronico {
+  top: 335px;
+  left: 23px;
+  height: 25px;
+  width: 300px;
+  color: rgba(30, 30, 30, 1);
+  position: absolute;
+}
+
 .txtContraseña {
   top: 400px;
   left: 23px;
@@ -53,12 +80,30 @@
   font-size: 16px;
 }
 
+.inputContraseña {
+  top: 425px;
+  left: 23px;
+  height: 25px;
+  width: 300px;
+  color: rgba(30, 30, 30, 1);
+  position: absolute;
+}
+
 .txtConfirmaContraseña {
   top: 490px;
   left: 23px;
   color: rgba(30, 30, 30, 1);
   position: absolute;
   font-size: 16px;
+}
+
+.inputConfirmarContraseña {
+  top: 515px;
+  left: 23px;
+  height: 25px;
+  width: 300px;
+  color: rgba(30, 30, 30, 1);
+  position: absolute;
 }
 
 .btnRegistrarse {

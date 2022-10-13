@@ -19,6 +19,8 @@ import { IniciarSesionComponent } from './views/iniciar-sesion/iniciar-sesion.co
 import { UsuarioComponent } from './views/usuario/usuario.component';
 import { PerfilComponent } from './views/perfil/perfil.component';
 import { AcercaDeComponent } from './views/acerca-de/acerca-de.component';
+import { ContactoComponent } from './views/contacto/contacto.component';
+import { EnviadoComponent } from './views/enviado/enviado.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { AcercaDeComponent } from './views/acerca-de/acerca-de.component';
     IniciarSesionComponent,
     UsuarioComponent,
     PerfilComponent,
-    AcercaDeComponent
+    AcercaDeComponent,
+    ContactoComponent,
+    EnviadoComponent
   ],
   imports: [
     BrowserModule,

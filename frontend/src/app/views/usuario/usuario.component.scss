@@ -470,3 +470,19 @@
     line-height: 24px;
     text-indent: 5%;
 }
+
+.logoTransparente {
+    top: 615px;
+    left: 10px;
+    position: absolute;
+}
+
+.inputNombre {
+    top: 155px;
+    left: 35px;
+    height: 40px;
+    width: 290px;
+    color: rgba(30, 30, 30, 1);
+    position: absolute;
+    border-color: transparent;
+}

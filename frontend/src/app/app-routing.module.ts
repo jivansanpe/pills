@@ -8,6 +8,8 @@ import { CrearCuentaComponent } from './views/crear-cuenta/crear-cuenta.componen
 import { UsuarioComponent } from './views/usuario/usuario.component';
 import { PerfilComponent } from './views/perfil/perfil.component';
 import { AcercaDeComponent } from './views/acerca-de/acerca-de.component';
+import { ContactoComponent } from './views/contacto/contacto.component';
+import { EnviadoComponent } from './views/enviado/enviado.component';
 
 const routes: Routes = [
   { path: 'crearCuenta', component: CrearCuentaComponent},
@@ -15,6 +17,8 @@ const routes: Routes = [
   { path: 'usuario', component: UsuarioComponent},
   { path: 'perfil', component: PerfilComponent},
   { path: 'acerca', component: AcercaDeComponent},
+  { path: 'contacto', component: ContactoComponent},
+  { path: 'enviado', component: EnviadoComponent},
   { path: 'bienvenida', component: BienvenidaComponent},
   { path: 'login', component: LoginComponent},
   { path: '', redirectTo: '/bienvenida', pathMatch: 'full' },
