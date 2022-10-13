@@ -18,6 +18,7 @@ import { CrearCuentaComponent } from './views/crear-cuenta/crear-cuenta.componen
 import { IniciarSesionComponent } from './views/iniciar-sesion/iniciar-sesion.component';
 import { UsuarioComponent } from './views/usuario/usuario.component';
 import { PerfilComponent } from './views/perfil/perfil.component';
+import { AcercaDeComponent } from './views/acerca-de/acerca-de.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { PerfilComponent } from './views/perfil/perfil.component';
     CrearCuentaComponent,
     IniciarSesionComponent,
     UsuarioComponent,
-    PerfilComponent
+    PerfilComponent,
+    AcercaDeComponent
   ],
   imports: [
     BrowserModule,

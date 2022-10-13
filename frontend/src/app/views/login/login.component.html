@@ -1,21 +1,31 @@
+<div class="pantallaIniciarSesion">
+    <span class="txtIniciarSesion">Iniciar sesión</span>
+    <span class="txtCorreoElectronico">Correo electrónico</span>
+    <!-- <input type="text" name="name" class="inputCorreoElectronico" required> -->
+    <span class="txtContraseña">Contraseña</span>
+    <!-- <input type="text" name="contraseña" class="inputContraseña" required> -->
+    <span class="btnContraseñaOlvidada">Olvidé mi contraseña</span>
+    <img src="/assets/images/entrar.png" class="btnEntrar" />
+    <span class="txtConectate">Conéctate</span>
+    <img src="/assets/images/logo.png" class="logo" />
+</div>
+
 <div id="contenedor" class="form">
     <form (ngSubmit)="submit()" #userForm="ngForm">
         <div class="form-group">
-            <label for="user">Nombre:</label>
-            <input type="text" [(ngModel)]="user.name" name="name" #name="ngModel" required>
+            <input class="inputCorreoElectronico" type="text" [(ngModel)]="user.name" name="name" #name="ngModel" required>
             <div *ngIf="name.invalid && name.dirty" class="alert">
-                <div *ngIf="name?.errors?.['required']">Campo requerido</div>
+                <div class="errorCorreoElectronico" *ngIf="name?.errors?.['required']">Campo requerido</div>
             </div>
         </div>
         <div class="form-group">
-            <label for="password">Contraseña:</label>
-            <input type="password" [(ngModel)]="user.password" name="password" #password="ngModel" required
+            <input class="inputContraseña" type="password" [(ngModel)]="user.password" name="password" #password="ngModel" required
                 minlength="4">
             <div *ngIf="password.invalid && password.dirty" class="alert">
-                <div *ngIf="password?.errors?.['required']">Campo requerido</div>
-                <div *ngIf="password?.errors?.['minlength']">Mínimo 4 caracteres</div>
+                <div class="errorContraseña" *ngIf="password?.errors?.['required']">Campo requerido</div>
+                <div class="errorContraseña" *ngIf="password?.errors?.['minlength']">Mínimo 4 caracteres</div>
             </div>
         </div>  
-        <button type="submit" [disabled]="!userForm .form.valid">Entrar</button>
+        <button class="btnEntrar2" type="submit" [disabled]="!userForm .form.valid" routerLink="/usuario">Entrar</button>
     </form>
 </div>
